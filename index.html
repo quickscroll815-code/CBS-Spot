@@ -1,33 +1,29 @@
-index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CBS Spot</title>
+    <!-- Leaflet CSS for Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f9; }
-        h1 { color: #333; text-align: center; }
-        .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .spot-card { border-bottom: 1px solid #ddd; padding: 10px 0; }
-        .spot-card:last-child { border-bottom: none; }
-        .spot-title { font-weight: bold; font-size: 1.1em; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>CBS Spot Platform</h1>
-        <p>Welcome to CBS Spot! Live locations and profiles database.</p>
-        <div id="spots-list">
-            <div class="spot-card">
-                <div class="spot-title">Manish</div>
-                <div>Location: Connaught Place, New Delhi</div>
-            </div>
-            <div class="spot-card">
-                <div class="spot-title">Rahul</div>
-                <div>Location: Sector 18, Noida</div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; }
+        header { background: #007bff; color: white; padding: 15px; text-align: center; font-weight: bold; font-size: 1.2rem; }
+        #map { height: 60vh; width: 100%; }
+        .container { padding: 15px; max-width: 800px; margin: 0 auto; }
+        .spot-card { background: white; padding: 15px; ma…<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBS Spot</title>
+    <!-- Leaflet CSS for Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; }
+        header { background: #007bff; color: white; padding: 15px; text-align: center; font-weight: bold; font-size: 1.2rem; }
+        #map { height: 60vh; width: 100%; }
+        .container { padding: 15px; max-width: 800px; margin: 0 auto; }
+        .spot-card { background: white; padding: 15px; ma…
